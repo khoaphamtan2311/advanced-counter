@@ -1,6 +1,6 @@
 :root {
-  --text-shadow-color: #ff9c99;
-  --text-main-color: #d74742;
+  --text-shadow-color: #8a7fdf;
+  --text-main-color: #4267d7;
 }
 * {
   box-sizing: border-box;
@@ -91,6 +91,12 @@ p {
   border: 1px solid var(--text-main-color);
   background-color: var(--text-main-color);
 } */
+.record {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  color: aliceblue;
+}
 @media only screen and (max-device-width: 1280px) {
   * {
     font-size: 0.9em;
